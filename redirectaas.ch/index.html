@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@RitzmannMarkus">
+    <meta name="twitter:title" content="Redirect as a Service">
+    <meta name="twitter:description" content="Forward your domain as a Service.">
+
+    <!-- Google -->
+    <title>Redirect as a Service</title>
+    <meta name="description" content="Forward your domain as a Service.">
+</head>
+
+<body>
+
+    <main role="main" class="flex-shrink-0">
+        <div class="container">
+            <h1 class="mt-5">Redirect as a Service</h1>
+            <p class="lead">Forward your domain as a Service.</p>
+            <ol>
+                <li>Point your (sub)domain which you want to redirect to <code>go.redirectaas.ch</code> using CNAME (or
+                    ALIAS).</li>
+                <li>Create a TXT record below your (sub)domain as <code>_redirect</code> which contains a URL.</li>
+            </ol>
+
+            <script src="https://gist.github.com/mritzmann/45ef54cd3ac9fa252ffd411290c2b12b.js"></script>
+
+            <h2>FAQ</h2>
+
+            <p><strong>Is there a rate limit?</strong></p>
+            <p>Fair Use. As long as this does not explode, it should not matter.</p>
+
+            <p><strong>CNAME does not work at root level and my dns provider does not support ALIAS.</strong></p>
+            <p>Yes, then it does not work.</p>
+
+        </div>
+    </main>
+
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <span class="text-muted"><a href="https://github.com/mritzmann/redirectaas.ch" href="_blank">GitHub</a> | <a
+                    href="https://twitter.com/RitzmannMarkus" target="_blank">@RitzmannMarkus</a></span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
