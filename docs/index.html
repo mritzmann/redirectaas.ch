@@ -26,22 +26,16 @@
     <main role="main" class="flex-shrink-0">
         <div class="container">
             <h1 class="mt-5">Redirect as a Service</h1>
-            <p class="lead">Forward your domain as a Service.</p>
+            <p class="lead">Forward your domain to any URL.</p>
             <ol>
-                <li>Point your (sub)domain which you want to redirect to <code>go.redirectaas.ch</code> using CNAME (or
-                    ALIAS).</li>
-                <li>Create a TXT record below your (sub)domain as <code>_redirect</code> which contains a URL.</li>
+                <li>Point your domain which you want to redirect to <code>go.redirectaas.ch</code> (using CNAME or
+                    ALIAS)</li>
+                <li>Create a TXT record below your domain as <code>_redirect</code> which contains a URL</li>
             </ol>
 
+            <p>Example:</p>
+
             <script src="https://gist.github.com/mritzmann/45ef54cd3ac9fa252ffd411290c2b12b.js"></script>
-
-            <h2>FAQ</h2>
-
-            <p><strong>Is there a rate limit?</strong></p>
-            <p>Fair Use. As long as this does not explode, it should not matter.</p>
-
-            <p><strong>CNAME does not work at root level and my dns provider does not support ALIAS.</strong></p>
-            <p>Yes, then it does not work.</p>
 
         </div>
     </main>
